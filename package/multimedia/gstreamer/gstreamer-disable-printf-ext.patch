@@ -1,0 +1,20 @@
+diff -Nura gstreamer-0.10.35/configure gstreamer-0.10.35-mod/configure
+--- gstreamer-0.10.35/configure	2011-06-16 01:49:28.000000000 +0800
++++ gstreamer-0.10.35-mod/configure	2012-02-01 12:18:49.965735142 +0800
+@@ -23730,6 +23730,7 @@
+ 
+ 
+ 
++:<<EOF
+ for ac_func in register_printf_specifier register_printf_function
+ do :
+   as_ac_var=`$as_echo "ac_cv_func_$ac_func" | $as_tr_sh`
+@@ -23741,7 +23742,7 @@
+  HAVE_PRINTF_EXTENSION=yes
+ fi
+ done
+-
++EOF
+ 
+ if test "$HAVE_PRINTF_EXTENSION" = yes; then
+   GST_PRINTF_EXTENSION_POINTER_FORMAT_DEFINE="#define GST_PTR_FORMAT \"P\""
