@@ -1,0 +1,12 @@
+diff -Nura faac-old//common/mp4v2/mpeg4ip.h faac-1.28//common/mp4v2/mpeg4ip.h
+--- faac-old//common/mp4v2/mpeg4ip.h	2012-03-11 18:55:58.478514082 +0800
++++ faac-1.28//common/mp4v2/mpeg4ip.h	2012-03-11 18:55:31.306513023 +0800
+@@ -123,7 +123,7 @@
+ #ifdef __cplusplus
+ extern "C" {
+ #endif
+-char *strcasestr(const char *haystack, const char *needle);
++//char *strcasestr(const char *haystack, const char *needle);
+ #ifdef __cplusplus
+ }
+ #endif

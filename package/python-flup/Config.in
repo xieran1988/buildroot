@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_FLUP
+	bool "python-flup"
+	depends on BR2_PACKAGE_PYTHON
+	help
+		flup: random Python WSGI stuff
+
+		http://trac.saddi.com/flup
+
